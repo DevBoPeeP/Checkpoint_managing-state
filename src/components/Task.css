@@ -1,0 +1,52 @@
+.tasks-list {
+  display: flex;
+  padding: 10px;
+  color: white;
+  background-color: purple;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 5px;
+  width: 90%;
+  height: 100px;
+}
+
+.remove-button {
+  background-color: #2e1213;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.remove-button:hover {
+  background-color: #8e6bba;
+  transition: ease-in 0.3s;
+}
+
+.tasks-item {
+  font-size: larger;
+}
+
+.complete-checkbox {
+  margin-right: 10px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.task-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.check-div {
+  display: flex;
+  align-items: center;
+}
+
+.check-div label {
+  font-size: small;
+}
